@@ -1,0 +1,17 @@
+{
+  "name": "demo-dice-service",
+  "version": "0.0.1",
+  "description": "Demo REST-based API for getting dice as a resource. For example, /dice/3d6 returns 3 rolls of a six-sided dice, and D20 returns a single roll of a 20-sided dice. Good for AD&D and for demos.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^4.3.0",
+    "restify-plugins": "^1.5.0",
+    "zipkin": "^0.5.1",
+    "zipkin-instrumentation-restify": "^0.5.1"
+  }
+}
